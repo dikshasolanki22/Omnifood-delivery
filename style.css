@@ -1,0 +1,466 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+header
+{
+    background: linear-gradient(rgba(0, 0, 0, 0.58), rgba(0, 0, 0, 0.58)), url("./img/background.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    color: #555;
+}
+nav ul{
+    display: flex;
+    float: right;
+    list-style-type: none;
+}
+nav ul li{
+    padding:20px;
+}
+.list:link,.list:visited{
+    color: white;
+    text-decoration: none;
+    font-size: 1.25rem;
+}
+.list:hover{
+    border-bottom: 2px solid #2ecc71;
+    padding-bottom: 0.7rem;
+}
+
+.header-text-box h1{
+    text-transform: uppercase;
+}
+
+.header-text-box {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    color: white;
+    font-weight: 100;
+    font-size: 1.5rem;
+    letter-spacing: 0.15rem;
+  }
+  .buttons{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    color: white;
+    font-weight: 100;
+    font-size: 1.5rem;
+    letter-spacing: 0.15rem;
+    top:50%;
+  }
+.firstbutton:link ,.firstbutton:visited{
+    text-decoration: none;
+    color: #2ecc71;
+    border-radius: 30px;
+    border: 0.1rem solid #2ecc71;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 5px;
+    text-align: center;
+    color: white;
+    background-color: #2ecc71;
+    border: 2px solid #2ecc71;
+
+   /* transition: transform .2s,
+    background-color .2s, color .2s; */
+
+    transition: all 0.2s ease;
+}
+.firstbutton:hover,.firstbutton:active{
+    border: 10px solid #2ecc71;
+}
+.secondbutton:link,.secondbutton:visited{
+    text-decoration: none;
+    color: #2ecc71;
+    border-radius: 30px;
+    border: 0.1rem solid #2ecc71;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    margin: 5px;
+    border: 2px solid #2ecc71;
+
+    transition: all 0.2s ease;
+}
+
+.secondbutton:hover,.secondbutton:active{
+    border: 10px solid  #2ecc71;
+    background-color: #2ecc71;
+    color: white;
+}
+
+h2
+{
+   text-align: center;
+   text-transform: uppercase;
+   font-family: 'Lato', sans-serif;
+   font-weight:700;
+   margin:1.5rem;
+   font-size: 2rem;
+   
+}
+
+h2:after {
+    background-color: #2ecc71;
+    display: block;
+    content: "";
+    width: 8rem;
+    height: 0.15rem;
+    margin-left: 45%;
+    margin-top: 2rem;
+    /* padding:  0px 8rem 0px 8rem;
+    //////with hr tag////////////
+    <hr width="15%" color="27ae60">*/
+
+  }
+
+  
+
+section{
+    padding: 4rem;
+}
+
+.features{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+.info{
+    margin-top: 2rem;
+    
+    font-size: 1.2rem;
+    
+}
+
+.features-info{
+    margin-top: 2rem;
+    display: flex;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.icontext{
+    text-align: justify;
+    word-spacing: 0.2rem;
+    font-size: 1.1rem;
+}
+
+.features-info div{
+    padding: 2rem;
+}
+
+.fas{
+    color: #2ecc71;
+    /* padding: 1.5rem; */
+}
+h3{
+    margin-bottom: 1rem;
+    letter-spacing: 0.2rem;
+}
+/* p{
+    text-align: center;
+} */
+
+.phone img{
+    width: 50%;
+    margin: 0.2rem;
+    margin-left: 8rem;
+    margin-right: 5rem;
+}
+.steps-parent
+{
+ display: flex;   
+}
+.steps-list
+{
+    display: flex;
+}
+.steps-how-to{
+  margin-top: 4rem;
+  padding: 2rem;
+}
+.steps-list{
+    padding: 0.5rem;
+}
+.steps-how-to p{
+   text-align: justify;
+   font-size: 1.2rem;
+   margin-left: 1.5rem;
+   margin-right: 15rem;
+}
+.steps-list div
+{
+    border-radius: 50%;
+    border: 1px solid #2ecc71;
+    border-width: 0.15rem;
+    color: #2ecc71;
+    font-size: 160%;
+    padding: 1.2rem;
+}
+#appstore
+{
+  height: 4rem;
+}
+#playstore
+{
+    height: 4rem;
+}
+.images
+{
+    padding: 4rem;
+}
+#works{
+    background: rgba(236, 236, 236, 1);
+}
+
+.availability{
+    text-align: center;
+    overflow: hidden;
+  }
+  .locations{
+    margin-top:3rem;
+    display:flex;
+    text-align: center;
+    
+    /* margin-left:5rem;
+    margin-right: 5rem; */
+  }
+  
+  .locations div{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    word-spacing: 0.25rem;
+  text-align: justify;
+  font-size: 1rem;
+  }
+  .locations img{
+    height:15rem;
+    width:20rem;
+    padding-bottom: 2rem;
+  }
+  .loc i{
+    color:#2ecc71;
+    margin-right:0.5rem;
+  }
+  
+  .loc{
+    padding:2rem;
+    text-align: center;
+    margin: auto;
+  }
+  .loc p{
+      padding: 0.5rem;
+  }
+  
+  .loc a{
+    transition: all 0.2s ease-out;
+    display: inline-block;
+    text-decoration: none;
+    color:#2ecc71;
+  }
+  .loc a:hover{
+    transform: scale(1.2);
+  }
+
+
+.our-reviews{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgb(0, 0, 0.7)), url("./img/pizza.jpg") no-repeat center fixed;
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+    color: white;
+}
+
+.review{
+    display: flex;
+}
+
+.review-section{
+    padding: 2rem;
+    margin: 2rem;
+    margin-top: 2rem;
+    font-style: italic;
+    font-size: 1.3rem;
+    text-align: justify;
+    word-spacing: 0.25rem;
+}
+
+.review-section i{
+    color: white;
+}
+
+.review-section img{
+   border-radius: 50%;
+   height: 70px;
+   width: 70px;
+}
+
+.review-section p{
+    margin-bottom: 1.7rem;
+}
+/*///////////////SECTION-5////////////////*/
+
+.membership{
+    background-color: rgba(236, 236, 236, 1);
+}
+.plans{
+    display: flex;
+}
+
+.plan-type{
+    margin: 4rem;
+    border: 1px solid white;
+    border-radius: 15%;
+    background-color: white;
+    width: 30%;
+    height: 90%;
+}
+
+.signup-header{
+    border-bottom: 1px solid #d2d7d3;
+    padding: 1.25rem;
+    line-height: 265%;
+}
+
+
+.benefits{
+    text-align: justify;
+    line-height: 271%;
+}
+
+.benefits ul{
+    border-bottom: 1px solid #d2d7d3; 
+    list-style: none;
+}
+
+.benefits ul li{
+    margin-left: 0.5rem;
+}
+
+.cost{
+    color: #2ecc71;
+    margin-bottom: 0.5rem;
+}
+
+.cost span{
+    font-size: 3rem;
+}
+
+.signup-button{
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+/*//////////SECTION-6//////////*/
+
+form{
+    padding: 2rem;
+    margin: 2rem;
+}
+
+.entry{
+    display: flex;
+    margin: 0 auto;
+    width: 70%;
+}
+
+.entry-text{
+    width: 50%;
+}
+
+input[type="text"],input[type="email"], select, textarea
+{
+    margin-bottom: 3%;
+    border-radius: 1%;
+    width: 100%;
+    padding: 2%;
+}
+
+textarea{
+    height: 7rem;
+    resize: none;
+}
+
+input[type="checkbox"]
+{
+    margin-bottom: 5%;
+}
+
+.form-button{
+    display: flex;
+    justify-content:center; 
+    align-content: center; 
+    margin-top: 0.7rem;
+}
+
+.checkbox{
+    margin-left: -15%;
+}
+
+/*/////////////////////////FOOTER/////////////////////////////////////////////////*/
+
+footer{
+    height: 25%;
+    background-color: rgb(26, 25, 25);
+}
+.footer-list ul{
+    display: flex;
+   justify-content: flex-start;
+   list-style: none;
+}
+
+.footer-list ul li{
+    padding: 2rem;
+}
+
+.footer-links{
+    text-decoration: none;
+    color: #555;
+    transition: all 0.2s ease-out;
+}
+
+.footer-links:hover
+{
+    transform: scale(1.5);
+    display: inline-block;
+}
+
+.footer-icons ul{
+    display: flex;
+   justify-content: flex-end;
+   list-style: none;
+   margin-top: -4.5rem;
+   
+}
+.footer-icons ul li a{
+    padding: 2rem;
+    color: #555;
+}
+
+.copyright{
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.social-links{
+    transition: all 0.2s ease-out;
+}
+
+.social-links:hover{
+    transform: scale(1.5);
+    display: inline-block;
+}
